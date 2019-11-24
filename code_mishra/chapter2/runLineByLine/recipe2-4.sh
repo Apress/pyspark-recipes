@@ -26,6 +26,16 @@ vim /allPySpark/hive/conf/hive-site.xml
 <name>javax.jdo.option.ConnectionURL</name>
     <value>jdbc:derby:;databaseName=/allPySpark/hive/metastore/metastore_db;create=true</value>
 
+#Add the following line at the begining of properties
+  <property>
+    <name>system:java.io.tmpdir</name>
+    <value>/tmp/hive/java</value>
+  </property>
+  <property>
+    <name>system:user.name</name>
+    <value>${user.name}</value>
+  </property>
+
 mv /allPySpark/hive/conf/hive-env.sh.template /allPySpark/hive/conf/hive-env.sh
 vim  /allPySpark/hive/conf/hive-env.sh 
 
@@ -45,6 +55,9 @@ export PATH=$PATH:$HIVE_HOME/bin
 source ~/.bashrc
 
 #Step 2-4-6.   Creating datawarehouse directories  of Hive
+
+#First check if hadoop is running
+# /allPySpark/hadoop/sbin/start-all.sh
 
 hadoop fs -mkdir -p /user/hive/warehouse
 hadoop fs -mkdir -p /tmp
