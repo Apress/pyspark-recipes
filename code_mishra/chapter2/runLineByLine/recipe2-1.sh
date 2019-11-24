@@ -35,7 +35,7 @@ exit
 
 #Downloading  Hadoop 
 cd  binaries
-wget http://redrockdigimark.com/apachemirror/hadoop/common/hadoop-2.6.5/hadoop-2.6.5.tar.gz
+wget https://archive.apache.org/dist/hadoop/core/hadoop-2.6.5/hadoop-2.6.5.tar.gz
 
 #Step 2-1-6. :  Moving Hadoop  binaries to installation directory
 
@@ -93,6 +93,9 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 # Sourcing the bashrc file 
 source ~/.bashrc 
+
+# Allow hdfs to write on /allPySpark
+sudo chmod 755 /allPySpark
 
 #Step 2-1-10. : Running Namenode Format
 
