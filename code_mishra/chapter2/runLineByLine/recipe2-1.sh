@@ -105,6 +105,7 @@ hdfs namenode -format
 #Step 2-1-11. : Starting Hadoop 
 
 /allPySpark/hadoop/sbin/start-all.sh
+sudo yum install java-1.8.0-openjdk-devel.x86_64
 
 
 
