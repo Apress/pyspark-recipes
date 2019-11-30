@@ -14,7 +14,7 @@ sudo tar xvzf spark-2.0.0-bin-hadoop2.6.tgz
 
 #Step 2-2-3.  Moving extracted Spark directory to /allPySpark
 
-sudo mv spark-2.0.0-bin-hadoop2.6   /allPySpark/spark
+sudo mv spark-2.0.0-bin-hadoop2.6 /allPySpark/spark
 
 #Step 2-2-4.  Changing  spark environment file 
 cp /allPySpark/spark/conf/spark-env.sh.template /allPySpark/spark/conf/spark-env.sh
