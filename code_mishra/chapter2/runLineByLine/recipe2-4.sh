@@ -16,7 +16,7 @@ sudo mv apache-hive-2.0.1-bin /allPySpark/hive
 
 #Step 2-4-4.  Updating hive-site.xml 
 
-mv /allPySpark/hive/conf/hive-default.xml.template /allPySpark/hive/conf/hive-site.xml
+sudo mv /allPySpark/hive/conf/hive-default.xml.template /allPySpark/hive/conf/hive-site.xml
 
 vim /allPySpark/hive/conf/hive-site.xml 
 
