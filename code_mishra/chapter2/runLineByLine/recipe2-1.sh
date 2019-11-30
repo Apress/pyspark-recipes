@@ -33,7 +33,8 @@ chmod 755 ~/.ssh/authorized_keys
 ssh localhost
 exit
 
-#Downloading  Hadoop 
+#Downloading  Hadoop
+sudo yum install wget
 cd  binaries
 wget https://archive.apache.org/dist/hadoop/core/hadoop-2.6.5/hadoop-2.6.5.tar.gz
 
