@@ -6,11 +6,11 @@
 
 #Step 2-2-1.  Downloading Apache Spark 
 
-wget  https://archive.apache.org/dist/spark/spark-2.0.0/spark-2.0.0-bin-hadoop2.6.tgz
+sudo wget  https://archive.apache.org/dist/spark/spark-2.0.0/spark-2.0.0-bin-hadoop2.6.tgz
 
 #Step 2-2-2.  Extracting  .tgz file of spark 
 
-tar xvzf spark-2.0.0-bin-hadoop2.6.tgz 
+sudo tar xvzf spark-2.0.0-bin-hadoop2.6.tgz 
 
 #Step 2-2-3.  Moving extracted Spark directory to /allPySpark
 
