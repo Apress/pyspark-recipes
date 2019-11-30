@@ -11,7 +11,7 @@ adduser pysparkbook
 passwd anything
 
 # Adding new user to sudo 
-usermod -aG wheel pyspark
+usermod -aG wheel pysparkbook
 exit
 
 # Looging to user pysparkbook
