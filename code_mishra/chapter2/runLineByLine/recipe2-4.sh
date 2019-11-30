@@ -5,7 +5,7 @@
 # Run following shell commands on centos or any other 
 
 #Step 2-4-1.  Downloading Hive 
-wget http://www-eu.apache.org/dist/hive/hive-2.0.1/apache-hive-2.0.1-bin.tar.gz
+wget https://archive.apache.org/dist/hive/hive-2.0.1/apache-hive-2.0.1-bin.tar.gz
 
 #Step 2-4-2.  Extracting Hive  
 tar xvzf   apache-hive-2.0.1-bin.tar.gz
